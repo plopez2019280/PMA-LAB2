@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "Control Academico",
-    "dateExported": "2024-02-26T03:13:19.060Z",
+    "dateExported": "2024-02-26T04:47:32.784Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -14,12 +14,12 @@
             "method": "POST",
             "sortNum": 10000,
             "created": "2024-02-26T03:12:11.899Z",
-            "modified": "2024-02-26T03:12:35.906Z",
+            "modified": "2024-02-26T03:33:44.590Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"correo\": \"jperez@gmail.com\",\n    \"password\": \"333444\"\n}",
+                "raw": "{\n    \"correo\": \"braulio@gmail.com\",\n    \"password\": \"2024000\"\n}",
                 "form": []
             },
             "tests": []
@@ -33,12 +33,12 @@
             "method": "POST",
             "sortNum": 20000,
             "created": "2024-02-26T03:12:11.900Z",
-            "modified": "2024-02-26T03:12:41.072Z",
+            "modified": "2024-02-26T04:37:29.143Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"nombre\": \"Jorge Perez\",\n    \"correo\": \"jperez@gmail.com\",\n    \"password\": \"333444\",\n    \"rol\": \"MAESTRO_ROL\"\n}",
+                "raw": "{\n    \"nombre\": \"braulio\",\n    \"correo\": \"braulio@gmail.com\",\n    \"password\": \"2024000\",\n    \"rol\": \"MAESTRO_ROL\"\n}",
                 "form": []
             },
             "tests": []
@@ -62,40 +62,16 @@
             "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
             "containerId": "",
             "name": "Editar Usuarios",
-            "url": "localhost:3000/api/usuarios/editar/63f845ca4c567f8aa0bd769d",
+            "url": "localhost:3000/api/usuarios/editar/65dc0274867fea308f2fdb97",
             "method": "PUT",
             "sortNum": 40000,
             "created": "2024-02-26T03:12:11.902Z",
-            "modified": "2024-02-26T03:12:49.912Z",
+            "modified": "2024-02-26T03:19:37.456Z",
             "headers": [],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"nombre\": \"Yessi Jimenez\",\n    \"correo\": \"yjimenez@gmail.com\",\n    \"password\": \"123456\",\n    \"rol\": \"ROL_ALUMNO\"\n}",
-                "form": []
-            },
-            "tests": []
-        },
-        {
-            "_id": "08794c38-c69f-4b44-ad0b-665b72d7766d",
-            "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
-            "containerId": "",
-            "name": "editar perfil no found",
-            "url": "localhost:3000/api/usuarios/editarPerfil/63f845ca4c567f8aa0bd769d",
-            "method": "PUT",
-            "sortNum": 50000,
-            "created": "2024-02-26T03:12:11.903Z",
-            "modified": "2024-02-26T03:12:53.961Z",
-            "headers": [
-                {
-                    "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y2ZTY2ZGE0YmE4ZDRhNDg1MzM5ZmIiLCJpYXQiOjE2NzcxMjUzNzIsImV4cCI6MTY3NzEzOTc3Mn0.WtLV3LTrVXr6GnZGjAhLxsTuBcQN3JhzJvMG4_KAan0"
-                }
-            ],
-            "params": [],
-            "body": {
-                "type": "json",
-                "raw": "{\n    \"nombre\": \"Jose tulio Jimenez\",\n    \"correo\": \"jjimenez@gmail.com\",\n    \"password\": \"123456\",\n    \"rol\": \"ROL_ALUMNO\"\n}",
+                "raw": "{\n    \"nombre\": \"Yessi Jimenez\",\n    \"correo\": \"yjimenez@gmail.com\",\n    \"password\": \"123456\",\n    \"rol\": \"MAESTRO_ROL\"\n}",
                 "form": []
             },
             "tests": []
@@ -120,25 +96,6 @@
             "tests": []
         },
         {
-            "_id": "a2a2fa4e-d4de-4aae-8bde-b263b181f43f",
-            "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
-            "containerId": "",
-            "name": "Eliminar alumno por medio rol maestro",
-            "url": "localhost:3000/api/usuarios/eliminar/63f845ca4c567f8aa0bd769d",
-            "method": "DELETE",
-            "sortNum": 70000,
-            "created": "2024-02-26T03:12:11.905Z",
-            "modified": "2024-02-26T03:13:02.853Z",
-            "headers": [
-                {
-                    "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y4NDdiZTRjNTY3ZjhhYTBiZDc2YTciLCJpYXQiOjE2NzcyMTY3MzIsImV4cCI6MTY3NzIzMTEzMn0.28jHTCnNWYm6SsAWxclkqqviwvtWUU0wt7Al4alQ4Go"
-                }
-            ],
-            "params": [],
-            "tests": []
-        },
-        {
             "_id": "41cd3787-5ddc-400d-bc59-778c911a5d8f",
             "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
             "containerId": "",
@@ -147,41 +104,17 @@
             "method": "POST",
             "sortNum": 80000,
             "created": "2024-02-26T03:12:11.906Z",
-            "modified": "2024-02-26T03:13:07.409Z",
+            "modified": "2024-02-26T03:35:01.137Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y4NTNiMmQ2NWYyOTM0MTY2YmNlYzQiLCJpYXQiOjE2NzcyMTg3NTYsImV4cCI6MTY3NzIzMzE1Nn0.LUyZDr3ANWncaXPpQ9TOJwOTdAYAe-f83rbZ8htTCGg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRjMDY3Y2Q3MTNiYWI3MjNmNjFmNzciLCJpYXQiOjE3MDg5MTg0MjQsImV4cCI6MTcwODkzMjgyNH0.CHq5joqc2CxbkN21gchHjLBgkzXidaji95LdaZGY1zg"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n    \"nombreCurso\": \"CALCULO\",\n    \"usuario\": \"63f845ca4c567f8aa0bd769d\"\n\n}",
-                "form": []
-            },
-            "tests": []
-        },
-        {
-            "_id": "6e521678-24d3-4204-acb3-633fb076be57",
-            "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
-            "containerId": "",
-            "name": "Editar Curso no found",
-            "url": "localhost:3000/api/cursos/editar/63f85756982a856729dd50f2",
-            "method": "PUT",
-            "sortNum": 90000,
-            "created": "2024-02-26T03:12:11.907Z",
-            "modified": "2024-02-26T03:13:11.817Z",
-            "headers": [
-                {
-                    "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y4NTNiMmQ2NWYyOTM0MTY2YmNlYzQiLCJpYXQiOjE2NzcyMTg3NTYsImV4cCI6MTY3NzIzMzE1Nn0.LUyZDr3ANWncaXPpQ9TOJwOTdAYAe-f83rbZ8htTCGg"
-                }
-            ],
-            "params": [],
-            "body": {
-                "type": "json",
-                "raw": "\n{\n    \"curso\": \"SEMINARIO\"\n}",
+                "raw": "{\n    \"nombreCurso\": \"CALCULO\",\n    \"usuario\": \"65dc067cd713bab723f61f77\"\n\n}",
                 "form": []
             },
             "tests": []
@@ -191,17 +124,31 @@
             "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
             "containerId": "",
             "name": "Eliminar Curso",
-            "url": "localhost:3000/api/cursos/eliminar/63f85718982a856729dd50ef",
+            "url": "localhost:3000/api/cursos/eliminar/65dc078245ca47fe95c0bb2e",
             "method": "DELETE",
             "sortNum": 100000,
             "created": "2024-02-26T03:12:11.908Z",
-            "modified": "2024-02-26T03:13:16.290Z",
+            "modified": "2024-02-26T04:21:47.857Z",
             "headers": [
                 {
                     "name": "x-token",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2M2Y4NTNiMmQ2NWYyOTM0MTY2YmNlYzQiLCJpYXQiOjE2NzcyMTg3NTYsImV4cCI6MTY3NzIzMzE1Nn0.LUyZDr3ANWncaXPpQ9TOJwOTdAYAe-f83rbZ8htTCGg"
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRjMDY3Y2Q3MTNiYWI3MjNmNjFmNzciLCJpYXQiOjE3MDg5MTg0MjQsImV4cCI6MTcwODkzMjgyNH0.CHq5joqc2CxbkN21gchHjLBgkzXidaji95LdaZGY1zg"
                 }
             ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "6ad477b7-b6ed-41b8-af8f-7429dce811b7",
+            "colId": "96758b7f-a115-4581-9ad2-51b196d28cde",
+            "containerId": "",
+            "name": "Editar Curso",
+            "url": "localhost:3000/api/cursos/editar/65dc078245ca47fe95c0bb2e",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-02-26T04:22:51.129Z",
+            "modified": "2024-02-26T04:23:13.518Z",
+            "headers": [],
             "params": [],
             "tests": []
         }
